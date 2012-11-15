@@ -1,12 +1,3 @@
-#########################################################################################
-#    Conky Theme : Infinity                                                                                                                                                                                          #
-#    Created by     : Harshit Yadav                                                                                                                                                                              #
-#    Version           : 1.0                                                                                                                                                                                                  # 
-#    Feel Free to distribute                                                                                                                                                                                         #
-#    For Installation Instrcutions See Read Me                                                                                                                                                       #
-########################################################################################
-
-
 # ----- Paramètres d'exécution
 background yes
 update_interval 1
