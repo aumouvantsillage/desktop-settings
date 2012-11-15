@@ -30,6 +30,7 @@ Instant messaging client: [Pidgin](http://pidgin.im/)
 
 This is probably not necessary, but I have installed these programs
 on a system with a working GNOME3 desktop environment.
+The desktop wallpaper is managed by GNOME.
 
 
 Openbox startup script (`openbox/autostart.sh`)
