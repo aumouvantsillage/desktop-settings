@@ -1,3 +1,5 @@
 #!/bin/sh
-cp conkyrc ~/.config/
+cp -rvu conky ~/.config/
+cp -rvu openbox ~/.config/
+cp -rvu tint2 ~/.config/
 
