@@ -12,6 +12,7 @@ Window manager: [Openbox](http://openbox.org)
 Task bar: [tint2](https://code.google.com/p/tint2/)
 
 System monitor: [Conky](http://conky.sourceforge.net/)
+* Fonts: DejaVu Sans, Symbola
 
 Clipboard manager: [Parcellite](http://parcellite.sourceforge.net/)
 
@@ -50,7 +51,7 @@ Key bindings
 --------------------
 
 * Kupfer: Windows-Space
-* Quit (oblogout): Windows-Q
+* Close session (oblogout): Windows-Q
 * Show desktop: Windows-D
 * Go to previous/next desktop: Ctrl-Alt-Left/Right
 * Go do desktop *n*: Windows-F*n*
@@ -60,5 +61,5 @@ Key bindings
 * Focus next window: Alt-Tab
 * Focus previous window: Alt-Shift-Tab
 * Pseudo-tiling: Window-Left/Right/Up/Down
-* Toggle fullscreen: Windows-F
+* Toggle full screen: Windows-F
 
