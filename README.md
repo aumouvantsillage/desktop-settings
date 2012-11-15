@@ -54,7 +54,7 @@ Key bindings
 * Close session (oblogout): Windows-Q
 * Show desktop: Windows-D
 * Go to previous/next desktop: Ctrl-Alt-Left/Right
-* Go do desktop *n*: Windows-F*n*
+* Go do desktop 1 to 6: Windows-F1 to F6
 * Move window to previous/next desktop: Shift-Alt-Left/Right
 * Close window: Alt-F4
 * Toggle maximize/minimize: Alt-F10
