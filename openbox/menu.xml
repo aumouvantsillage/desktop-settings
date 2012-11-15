@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="Openbox">
+		<menu id="apps" label="Applications" execute="obm-xdg" />
+		<separator />
+		<item label="Reconfigurer Openbox">
+			<action name="Reconfigure" />
+		</item>
+		<item label="Quitter">
+			<action name="Execute">
+				<execute>
+					oblogout
+				</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>
