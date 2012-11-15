@@ -24,13 +24,19 @@ Clipboard manager: [Parcellite](http://parcellite.sourceforge.net/)
 
 Application launcher: [Kupfer](http://engla.github.com/kupfer/)
 
-Instant messaging client: [Pidgin](http://pidgin.im/)
-* SIP/SIMPLE protocol for Microsoft Lync 2010: [SIPE](http://sipe.sourceforge.net/)
-
-
 This is probably not necessary, but I have installed these programs
 on a system with a working GNOME3 desktop environment.
 The desktop wallpaper is managed by GNOME.
+
+### Optional software
+
+These programs are mentioned here because they are launched automatically
+by the Openbox startup script.
+
+Instant messaging client: [Pidgin](http://pidgin.im/)
+* SIP/SIMPLE protocol for Microsoft Lync 2010: [SIPE](http://sipe.sourceforge.net/)
+
+Time management: [Hamster Time Tracker](https://projecthamster.wordpress.com/)
 
 
 Openbox startup script (`openbox/autostart.sh`)
@@ -44,6 +50,7 @@ Programs launched when starting an Openbox session:
 * Gnome screensaver
 * Parcellite
 * Pidgin
+* Hamster time tracker
 
 Pidgin is started with NSS_SSL_CBC_RANDOM_IV=0 to prevent an error when connecting to
 the Lync server.
