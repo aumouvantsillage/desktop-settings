@@ -16,13 +16,25 @@ Window manager: [Openbox](http://openbox.org)
 
 Task bar: [tint2](https://code.google.com/p/tint2/)
 
+Application launcher: [Kupfer](http://engla.github.com/kupfer/)
+
+```
+yaourt -S openbox obmenu oblogout tint2 xorg-xprop kupfer
+```
+
 System monitor: [Conky](http://conky.sourceforge.net/)
 * Fonts: DejaVu Sans, Symbola
 * Kernel module to read sound volume: snd-pcm-oss
 
+```
+yaourt -S conky ttf-dejavu ttf-symbola
+```
+
 Clipboard manager: [Parcellite](http://parcellite.sourceforge.net/)
 
-Application launcher: [Kupfer](http://engla.github.com/kupfer/)
+```
+yaourt -S parcellite
+```
 
 This is probably not necessary, but I have installed these programs
 on a system with a working GNOME3 desktop environment.
@@ -37,6 +49,10 @@ Instant messaging client: [Pidgin](http://pidgin.im/)
 * SIP/SIMPLE protocol for Microsoft Lync 2010: [SIPE](http://sipe.sourceforge.net/)
 
 Time management: [Hamster Time Tracker](https://projecthamster.wordpress.com/)
+
+```
+yaourt -S pidgin pidgin-sipe hamster-applet
+```
 
 
 Openbox startup script (`openbox/autostart.sh`)
