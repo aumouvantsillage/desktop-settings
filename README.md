@@ -30,6 +30,9 @@ System monitor: [Conky](http://conky.sourceforge.net/)
 yaourt -S conky ttf-dejavu ttf-symbola
 ```
 
+Desktop wallpaper (managed by GNOME):
+[Grunge Pin by monkeymagico](http://monkeymagico.deviantart.com/art/Grunge-Pin-120293060)
+
 Clipboard manager: [Parcellite](http://parcellite.sourceforge.net/)
 
 ```
@@ -38,7 +41,6 @@ yaourt -S parcellite
 
 This is probably not necessary, but I have installed these programs
 on a system with a working GNOME3 desktop environment.
-The desktop wallpaper is managed by GNOME.
 
 ### Optional software
 
