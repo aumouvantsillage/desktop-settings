@@ -47,7 +47,7 @@ ${voffset 20}${color FFA300}${font :size=50}$alignc${time %A} ${time %d}$font
 ${font :size=25}$alignc${time  %B} ${time %Y}$font$color
 # ----- Affichage de la charge CPU
 ${voffset 80}${font Symbola:size=16}📈$font${offset 40}CPU1 : ${cpu cpu0}%${alignr 40}CPU2 : ${cpu cpu1}%
-${cpugraph cpu0 32,225 000000 FFA300}$alignr${cpugraph cpu1 32,225 000000 FFA300}
+${cpugraph cpu0 32,225 FFA300 FFA300}$alignr${cpugraph cpu1 32,225 FFA300 FFA300}
 ${offset 50}${font :size=12}${top name 1}${alignr 100}${top cpu 1}%
 ${offset 50}${top name 2}${alignr 100}${top cpu 2}%
 ${offset 50}${top name 3}${alignr 100}${top cpu 3}%$font
@@ -64,6 +64,6 @@ ${voffset 10}${font Symbola:size=16}🗁$font ${voffset -2}/home : ${fs_used /ho
 ${color FFA300}${fs_bar 6,460 /home}$color
 # ----- Affichage des débits sur l'interface réseau eth0
 ${voffset 30}${offset 40}↓ ${downspeed eth0}${alignr 40}↑ ${upspeed eth0}
-${downspeedgraph eth0 32,225 000000 FFA300} ${upspeedgraph eth0 32,225 000000 FFA300}
+${downspeedgraph eth0 32,225 FFA300 FFA300} ${upspeedgraph eth0 32,225 FFA300 FFA300}
 # ----- Affichage du volume sonore (nécessite le module noyau snd-pcm-oss)
 ${voffset 30}${font Symbola:size=16}🔊$font ${mixer}% ${color FFA300}${mixerbar}$color
